@@ -61,6 +61,7 @@ h2{
 
 }
   header {
+  margin-top: -30px;
   box-shadow: 0px 3px 4px -4px #000000;
   background-color: #ffffff;
   background-image: url(../img/bg.jpg);
@@ -153,16 +154,11 @@ h2{
     order: 0;
     display: block; }
 
-.section-1{
-  display: flex;
-  background-color:#eff4f4;
-  padding-top: 140px;
-  padding-bottom:68px;
-}
+
 .text{
   width: 615px;
 }
-.section-1 .group__btn{
+section .group__btn{
   margin-top:62px;
 }
 
@@ -198,13 +194,6 @@ h2{
   background-color: #3b4269;
 }
 
-.section-2{
-  display: inline-flex;
-  flex-direction: wrap;
-  padding-top: 70px;
-  width: 100%;
-  padding-bottom: 80px;
-}
 .unistal__group{
   flex-direction: row;
   width:800px;
@@ -214,23 +203,6 @@ h2{
   display: inline;
   margin-left: 20px;
   text-decoration: none;
-}
-
-.section-3{
-  display: flex;
-  padding-top: 70px;
-  background-color:#eff4f4;
-
-}
-.section-4{
-  display: flex;
-  padding-top: 70px;
-}
-.section-5{
-  display: flex;
-  padding-top: 70px;
-  background-color:#eff4f4;
-  padding-bottom:70px;
 }
 
 .step__text{
@@ -264,16 +236,6 @@ flex-direction: column;
  }
 
 
-.section-6{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.social__wrap{
-
-}
 
 .social__list{
   display: inline-flex;
@@ -307,9 +269,8 @@ footer{
 }
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-  .wrap{
+  .container{
   width: 615px;
-
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -322,13 +283,7 @@ footer{
  .group__btn{
   flex-direction: column;
  }
- .section-1{
-  -webkit-background-size: cover;
-  background-size: cover;
- }
- .container-fluid{
-  width: 600px;
- }
+
  header{
   background-image: none;
  }
