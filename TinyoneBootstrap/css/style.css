@@ -1,8 +1,9 @@
-/*Спецификация*/s
+/*Спецификация*/
 
 body{
 	font-family: 'PT Sans', sans-serif;
 }
+
 
 ul, li {
 	display: block;
@@ -66,11 +67,12 @@ margin-left: 57px;
 	font-size: 16px;
 	max-width: 400px;
 }
-.icons__item{
+.icons__item {
 	margin-right: 30px;
+
 }
 
-.icons__item a {
+.icons__item  i {
 	color: black;
 	 font-size: 42px;
 	 text-decoration: none;
@@ -175,6 +177,8 @@ margin-left: 57px;
 .footer{
 	background: black;
 	padding:50px 94px;
+
+	
 }
 .credits{
 	color: white;
@@ -183,4 +187,32 @@ margin-left: 57px;
 	max-width: 180px;
 	font-style: normal;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+	.logo{
+		display: block;
+		margin: 0 auto;
+	}
+	.nav ul {
+		margin:0 auto;
+	}
+	.offer{
+		text-align: center;
+	}
+	.offer__text{
+		margin: 0 auto;
+	}
+
+	.icons{
+		justify-content: center;
+	}
+	.form__input{
+		margin-right: 0;
+		width: 100%;
+	}
+	.form__btn{
+		margin-top: 10px;
+		width: 100%;
+	}
 }
