@@ -1,0 +1,186 @@
+/*Спецификация*/s
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin:0;
+}
+h1,h2,h3,h4,h5 {
+	font-weight: 700;
+	color: #010101;
+}
+h2{
+	text-align: center;
+	font-size: 32px;
+}
+
+h3{
+	font-weight: 400;
+}
+
+
+
+/*HEADER*/
+
+.header{
+	background: #fcdb00;
+	color: #010101;
+	padding-top:59px;
+	padding-bottom: 105px;
+}
+
+
+.menu{
+	margin-top:10px;
+}
+
+.menu__item{
+margin-left: 57px;
+}
+
+.menu__item a {
+	color:#010101;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.offer{
+	margin-top: 117px;
+}
+.offer__intro{
+	font-size: 20px;
+	margin-bottom: 6px;
+	line-height: 1,3em;
+}
+
+.offer__title{
+	font-size: 32px;
+}
+
+.offer__text{
+	margin-top:15px;
+	font-size: 16px;
+	max-width: 400px;
+}
+.icons__item{
+	margin-right: 30px;
+}
+
+.icons__item a {
+	color: black;
+	 font-size: 42px;
+	 text-decoration: none;
+}
+
+.android a :hover{
+	color:green;
+	transition: all 0.3s ease;
+}
+.windows a :hover{
+	color:blue;
+	transition: all 0.3s ease;
+}
+.apple a :hover{
+	color:#545353;
+	transition: all 0.3s ease;
+}
+.ipad{
+	display: block;
+	margin: 60px auto 0;
+}
+
+/*features*/
+.features{
+ font-style: normal;
+}
+.title{
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.title__main{
+	font-size: 32px;
+
+}
+
+.title__text{
+	font-style: 20px;
+	max-width: 780px;
+	font-size: 20px;
+	margin: 0 auto;
+	color: #777777;
+}
+
+.feature{
+	margin-bottom: 65px;
+}
+
+.feature__icon{
+	font-size: 50px;
+	margin-right: 37px;
+	color: black;
+}
+
+.feature__text{
+	color: #a2a2a2;
+}
+/*Третий экран*/
+
+.touch{
+	font-style: normal;
+	background: black;
+	color: white;
+
+}
+
+.yellow {
+ color: #fcdb00;
+}
+
+/*Form*/
+
+.form{
+	text-align: center;
+}
+
+.form__input{
+	background: #fff;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 5px;
+	width: 580px;
+	padding:12px 0;
+	border:0;
+	padding-left: 23px;
+}
+
+.form__btn{
+	background: #fcdb00;
+	color: black;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 5px;
+	width: 126px;
+	border:0;
+	padding: 12px 0;
+	cursor: pointer;
+}
+
+.footer{
+	background: black;
+	padding:50px 94px;
+}
+.credits{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	max-width: 180px;
+	font-style: normal;
+	margin: 0 auto;
+}
