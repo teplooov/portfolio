@@ -185,10 +185,23 @@ margin-left: 57px;
 	margin: 0 auto;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:998px) {
 	.menu{
 		flex-direction: column;
-		
+		text-align: center;
+
+	}
+	.logo{
+		margin:0 auto;
+	}
+
+	.container{
+		max-width: 600px;
 	}
 	
+	input{
+		max-width: 100%;
+
+	}
+
 }
