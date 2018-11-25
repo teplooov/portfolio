@@ -188,7 +188,7 @@ margin-left: 57px;
 @media screen and (max-width:998px) {
 	.menu{
 		flex-direction: column;
-		text-align: center;
+		text-align: left;
 
 	}
 	.logo{
