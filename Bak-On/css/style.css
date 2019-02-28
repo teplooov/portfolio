@@ -1,0 +1,237 @@
+h1,h2,h3,h4{
+	font-family: 'Lato', sans-serif;
+	}
+a{
+	text-decoration: none;
+	color: #444444;
+}
+a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.header{
+	margin-top: 25px;
+	justify-content: space-between;
+}
+
+.logo{
+	background: url(../img/logo.png) no-repeat left;
+	padding-left: 60px;
+	font-family: 'Lato', sans-serif;
+	color: #444444;
+	font-size: 20px;
+}
+.logo__text{
+	font-size: 14px;
+
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.menu{
+	text-align: right;	
+	text-decoration: none;
+	list-style: none;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	color: #444444;
+	margin-top: 10px;
+	margin-left: 435px;
+}
+
+
+.menu__item{
+	margin-left: 35px;
+	padding: 6px 12px;
+}
+
+.menu__item:hover{
+	background: #1bbc9b;
+	color:#fff;
+}
+
+.offer{
+	background: url(../img/jumbotron.jpg) no-repeat center ;
+	background-size: 100%;
+	padding-top: 180px;
+	padding-bottom: 100px;
+	
+	}
+
+.offer__title{
+	font-weight: 300;
+	font-size: 55px;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.text__offer{
+	text-align: center;
+	color: #a8a5a2;
+	font-size: 18px;
+	text-align: center;
+	width: 650px;
+	margin-top: 20px;
+}
+.btn{
+	margin-top: 40px;
+
+}
+.btn__link{
+	margin-top: 50px;
+	text-align: center;
+	color: #fff;
+	background-color:#1bbc9b;
+	padding: 13px 12px;
+	border-radius: 2px;
+}
+.down{
+	text-align: center;
+	margin-top: 80px;
+	padding-bottom: 80px;
+	font-size: 90px;
+	color: #fff;
+}
+.down a{
+	color: #fff;
+}
+.down a :hover{
+	color: #1bbc9b;
+	font-size: 120px;
+	transition: 1s;
+}
+
+.portfolio{
+	margin-top: 55px;
+}
+
+.title__portfolio{
+	font-size: 28px;
+	text-align: center;
+
+}
+
+.text__portfolio{
+	font-size: 16px;
+}
+
+.portfolio__menu{
+	text-align: center;
+	list-style: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	
+	color:#fff;
+}
+
+.portfolio__item a{
+	color: #fff;
+	padding:8px 16px;
+	background-color: #1bbc9b;
+	margin: 15px;
+	font-weight: 700;
+
+}
+
+.portfolio__item{
+	margin-top: 35px;
+}
+
+.about__us{
+	margin-top:50px;
+	padding-top: 55px;
+	text-align: center;
+	background-color:#16a086;
+	color:white; 
+	padding-bottom: 75px;
+}
+.title__ava{
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+	color: #444444;
+	width: 220px;
+	text-align: center;
+	margin-top: 37px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+
+	
+
+}
+
+.title__ava h3{
+	padding-top:20px;
+}	
+
+.title__ava p {
+	text-align: left;
+	padding: 8px 16px;
+	font-size: 14px;
+	padding-top:10px;
+
+}
+
+.contact-us{
+	margin-top: 45px;
+	text-align: center;
+
+}
+
+
+.form__contact{
+	margin-top: 52px;
+	margin-left: 120px;
+}
+.form__info{
+	border:2px solid #bec3c7;
+	width: 220px;
+	padding: 10px 20px;
+	
+}
+.form__info:last-child{
+	margin-left:20px;
+}
+
+.form-control{
+	width:460px; 
+	height:150px;
+	border:2px solid #bec3c7;
+
+}
+
+
+.form-group{
+
+
+}
+
+.contact__info{
+	text-align: left;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: #444444;
+	
+}
+
+i{
+	padding-right: 10px;
+}
+.btn__link{
+	padding: 13px 27px;
+}
+
+.submit{
+	text-align: right;
+	padding-right: 20px;
+	margin-top: -20px;
+}
+
+.footer{
+	margin-top: 60px;
+	background-color: #2d3e50;
+	height: 85px;
+}
