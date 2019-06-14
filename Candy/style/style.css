@@ -1,0 +1,100 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: 'Fresca', sans-serif;
+}
+h2{
+	text-align: center;
+}
+
+
+.navbar{
+	padding-top: 80px;
+	justify-content: space-around;
+}
+
+
+.header{
+	background: url(../img/TASS_3657216.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 5px 8px -4px #000000;
+
+}
+
+
+.container{
+	width: 1200px;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+	font-size: 16px;
+	font-family: 'Fresca', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav-link{
+	font-family: 'Fresca', sans-serif;
+}
+
+.preload{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 240px;
+	padding-bottom: 350px;
+}
+.info{
+	
+	margin-top: 140px;
+	border-bottom: 2px solid #ff8cf0;
+}
+
+
+.info__item{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	margin-top: 80px;
+	margin-bottom: 140px;
+}
+
+.info__text{
+	width: 70%;
+	text-align: center;
+	margin-left: 5%;
+}
+.img1{
+	width: 40%;
+	height: 60%;
+}
+.services{
+	margin-top: 140px;
+	width: 100%;
+}
+
+.services__list{
+	margin-top: 20px;
+	padding-top: 40px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	font-size: 14px;
+
+	
+}
+
+.services__text{
+	width: 300px;
+}
