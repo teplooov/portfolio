@@ -101,7 +101,7 @@ h2{
 
 
 @media screen and (max-width: 1170px ){
-		.info__item{
+	.info__item{
 		display: inline-block;
 		text-align: center;
 	}
