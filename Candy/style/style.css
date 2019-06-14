@@ -98,3 +98,24 @@ h2{
 .services__text{
 	width: 300px;
 }
+
+
+@media screen and (max-width: 1170px ){
+		.info__item{
+		display: inline-block;
+		text-align: center;
+	}
+	.info__text{
+		margin-top: 0;
+		margin-left: 0;
+		display: inline-flex;
+		align-content: center;
+		align-items: center;
+	}
+		.services__list{
+		flex-direction: column;
+	}
+	.img1{
+	width: 50%;
+}
+}
