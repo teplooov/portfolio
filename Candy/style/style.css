@@ -112,8 +112,12 @@ h2{
 		align-content: center;
 		align-items: center;
 	}
-		.services__list{
+
+	.service{
 		flex-direction: column;
+	}
+	.services__list{
+	flex-direction: column;
 	}
 	.img1{
 	width: 50%;
