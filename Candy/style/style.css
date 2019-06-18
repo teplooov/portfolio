@@ -19,9 +19,14 @@ h1{
 
 
 .navbar{
+<<<<<<< HEAD
 	padding-top: 60px;
 	justify-content: space-around;
 	
+=======
+	padding-top: 80px;
+	justify-content: space-between;
+>>>>>>> c9661e4f74a739a5b54edd0680fd4e8c6a1ad4db
 }
 
 
@@ -36,12 +41,15 @@ h1{
 
 }
 
+<<<<<<< HEAD
 .navbar-expand-lg{
 	justify-content: space-between;
 }
 
 
 
+=======
+>>>>>>> c9661e4f74a739a5b54edd0680fd4e8c6a1ad4db
 .navbar-collapse {
 	justify-content: flex-end;
 	font-size: 16px;
@@ -138,7 +146,11 @@ h1{
 		text-align: center;
 	}
 	.info__text{
+<<<<<<< HEAD
 		margin-top: 20px;
+=======
+		margin-top: 40px;
+>>>>>>> c9661e4f74a739a5b54edd0680fd4e8c6a1ad4db
 		margin-left: 0;
 		display: inline-flex;
 		align-content: center;
