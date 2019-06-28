@@ -8,16 +8,25 @@ h1{
 
 }
 body{
-	font-family: 'Fresca', sans-serif;
+	font-family: 'Pacifico', cursive;
+
+
 }
 h2{
 	text-align: center;
 }
+h1{
+	color: white;
+	font-weight: bold;
+	font-family: 'Press Start 2P', cursive;
+
+}
 
 
 .navbar{
-	padding-top: 80px;
-	justify-content: space-between;
+	padding-top: 60px;
+	justify-content: space-around;
+	
 }
 
 
@@ -26,20 +35,34 @@ h2{
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 0px 5px 8px -4px #000000;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
 
 }
+
+.navbar-expand-lg{
+	justify-content: space-between;
+}
+
+
 
 .navbar-collapse {
 	justify-content: flex-end;
 	font-size: 16px;
-	font-family: 'Fresca', sans-serif;
+	font-family: 'Pacifico', cursive;
+
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 .nav-link{
-	font-family: 'Fresca', sans-serif;
+	font-family: 'Pacifico', cursive;
+	padding-left: 20px;
+
 }
+
+
 
 .preload{
 	text-align: center;
@@ -48,11 +71,15 @@ h2{
 	justify-content: center;
 	padding-top: 240px;
 	padding-bottom: 350px;
+	font-family: 'Press Start 2P', cursive;
+
+
 }
 .info{
+	background-color:#f5f5f5;
+	padding-top: 140px;
+	padding-bottom: 120px;
 	
-	margin-top: 140px;
-	border-bottom: 2px solid #ff8cf0;
 }
 
 
@@ -69,6 +96,7 @@ h2{
 	width: 70%;
 	text-align: center;
 	margin-left: 5%;
+	font-size: 24px;
 }
 .img1{
 	width: 40%;
@@ -90,7 +118,7 @@ h2{
 	justify-content: space-between;
 	text-align: center;
 	align-items: center;
-	font-size: 14px;
+	font-size: 18px;
 
 	
 }
@@ -100,13 +128,22 @@ h2{
 }
 
 
+.gallerey{
+	margin-top: 140px;
+	background-color: #f5f5f5;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+
 @media screen and (max-width: 1170px ){
 	.info__item{
 		display: inline-block;
 		text-align: center;
 	}
 	.info__text{
-		margin-top: 40px;
+		margin-top: 20px;
 		margin-left: 0;
 		display: inline-flex;
 		align-content: center;
@@ -124,8 +161,26 @@ h2{
 }
 }
 
+
 .navbar-toggler{
 	border:none;
 	font-size: 24px;
 	color: white;
 	
+}
+.contact {
+	display: flex;
+	padding-top: 140px;
+	padding-bottom: 80px;
+	font-size: 24px;
+	text-align: center;
+
+}
+
+
+.footer{
+	background-color: #ffa8e8;
+	padding-top: 140px;
+	padding-bottom: 40px;
+}
+
