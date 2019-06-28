@@ -2,6 +2,11 @@
 	margin:0;
 	padding: 0;
 }
+
+
+h1{
+
+}
 body{
 	font-family: 'Fresca', sans-serif;
 }
@@ -118,3 +123,9 @@ h2{
 	width: 50%;
 }
 }
+
+.navbar-toggler{
+	border:none;
+	font-size: 24px;
+	color: white;
+	
