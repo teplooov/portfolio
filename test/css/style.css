@@ -84,4 +84,8 @@ li{
 }
 
 
-@media
+@media screen and (max-width:1010px;) {
+	.menu__list{
+		display: none;
+	}
+}
